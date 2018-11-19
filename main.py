@@ -5,8 +5,11 @@ from create_folder import createFolder
 from remove_folder import removeFolder
 from remove_file import removeFile
 
-if __name__ == '__main__':
+def main():
   #createFolder("./test")
   #removeFolder("./test")
   #removeFile("./test/test-file.txt")
   #removeFolderInTree("./test")
+
+if __name__ == '__main__':
+  main()
